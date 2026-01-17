@@ -12,7 +12,6 @@ for _ in range(t):
         if lcm < minn:
             minn = lcm
             ans[0] = a
-            ans[1] = b
-    
+            ans[1] = b   
     print(ans[0], ans[1])
 
